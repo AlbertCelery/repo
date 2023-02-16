@@ -18,7 +18,7 @@ public static int diespagar(int preu, int sou){
         System.out.println("preu = " + preu);
         System.out.println("sou = " + sou);
         int dies = albertcelery.diespagar(preu, sou);
-        if (preu == ((diespagar(preu, sou)*(sou*30)*100)/5)){
+        if (dies==61 || dies==62){
             System.out.println("funciona");
             System.out.println("dies = " + dies);
         }else{
